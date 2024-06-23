@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Wedding Invitation</title>
+        <title>DavestForVianca - May 18 2025</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
