@@ -5,11 +5,11 @@ import Header from './Header';
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      <div className="bg-dark-500 w-full">
-        <div className="max-w-screen-2xl mx-auto ">{children}</div>
+      {/* <Header /> */}
+      <div className="bg-dustyBlue4 w-full">
+        <div className="">{children}</div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

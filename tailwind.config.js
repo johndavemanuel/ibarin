@@ -32,6 +32,11 @@ module.exports = {
           500: '#23261E',
           450: 'hsla(83,12%,13%,0.4)',
         },
+        dustyBlue: '#799fad',
+        dustyBlue1: '#2d5372',
+        dustyBlue2: '#c2d3df',
+        dustyBlue3: '#144160',
+        dustyBlue4: '#799fad',
       },
       gridTemplateRows: {
         // Simple 8 row grid
