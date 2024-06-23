@@ -18,10 +18,10 @@ export default function Home() {
         <section
           id="beranda"
           className="flex lg:hidden bg-cover bg-center  w-full h-screen  items-start py-14"
-          style={{ backgroundImage: 'https://placehold.co/1000x1000' }}
+          style={{ backgroundImage: 'url(https://placehold.co/1000x1000)' }}
         >
           <div className="flex flex-col  w-full relative">
-            <div className="absolute h-full w-full bg-dark-450 bg-blur-2px"></div>
+            <div className="absolute h-full w-full"></div>
             <div className="flex flex-col w-full text-dustyBlue2 text-center h-auto  px-8 py-3.5 z-10">
               <p className="font-habibi ">The Wedding of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
@@ -79,7 +79,7 @@ export default function Home() {
           className="bg-[799fad] py-14 mb:pb-6 grid grid-flow-row gap-4 row-span-4 h-screen"
         >
           <div className="flex flex-col  w-full relative lg:h-full">
-            <div className="absolute h-full w-full bg-dark-450 bg-blur-2px lg:hidden"></div>
+            <div className="absolute h-full w-full lg:hidden"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10 lg:my-auto">
               <p className="font-habibi">The Wedding of</p>
               <h4 className="font-great-vibes text-5xl lg:text-7xl mb-4 mt-6 ">
