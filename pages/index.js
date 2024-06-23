@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '@/components/Layout/Layout';
-// import Resepsi from '../public/assets/icons/resepsi.svg';
+import Resepsi from '../public/assets/icons/resepsi.svg';
 import Ring from '../public/assets/icons/ring.svg';
 
 import Location from '../public/assets/icons/location.svg';
@@ -21,8 +21,8 @@ export default function Home() {
           style={{ backgroundImage: 'url(https://placehold.co/1000x1000)' }}
         >
           <div className="flex flex-col  w-full relative">
-            <div className="absolute h-full w-full"></div>
-            <div className="flex flex-col w-full text-dustyBlue2 text-center h-auto  px-8 py-3.5 z-10">
+            <div className="absolute h-full w-full bg-dustyBlue2 bg-blur-2px"></div>
+            <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10">
               <p className="font-habibi ">The Wedding of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Dave &nbsp; & &nbsp; Vianca
@@ -106,10 +106,10 @@ export default function Home() {
           <div className="flex flex-col mx-auto h-40 lg:h-full items-center justify-center w-full px-8">
             <div className="flex flex-col md:flex-row w-full">
               <div className="flex w-full my-2 md:justify-center">
-                <Ring className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" />
+                {/* <Ring className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" /> */}
                 <div className="flex flex-col text-white font-habibi gap-2 h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">Church </p>
-                  <p className="text-xs md:text-base lg:text-lg">
+                  <p className="text-xl">Church </p>
+                  <p className="text-sm">
                     The Parish of Our Lady of Mount Carmel - Barasoain Church
                   </p>
                   <p className="text-sm">
@@ -120,15 +120,10 @@ export default function Home() {
               </div>
 
               <div className="flex w-full my-2 md:justify-center">
-                <img
-                  src="/assets/icons/resepsi.svg"
-                  className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
-                />
+                {/* <Resepsi className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" /> */}
                 <div className="flex flex-col text-white font-habibi gap-2 h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">Reception </p>
-                  <p className="text-xs md:text-base lg:text-lg">
-                    Lian Gwen Pavilion
-                  </p>
+                  <p className="text-xl">Reception </p>
+                  <p className="text-sm">Lian Gwen Pavilion</p>
                   <p className="text-sm">
                     593 Diversion Rd Santa Isabel, Malolos
                   </p>
