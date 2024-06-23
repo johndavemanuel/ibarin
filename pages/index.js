@@ -150,8 +150,8 @@ export default function Home() {
           <h1 className="text-center text-5xl font-great-vibes my-auto mx-auto text-white mb-8 ">
             Gallery
           </h1>
-          <div className="grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8">
-            <div className="flex row-span-3 ">
+          <div className="grid gap-4 grid-cols-1 lg:grid-cols-3 px-4 lg:px-8">
+            <div className="flex">
               <Image
                 src="https://placehold.co/1000x1000"
                 alt="Picture of the author"
@@ -162,7 +162,7 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
+            <div className="flex">
               <Image
                 src="https://placehold.co/1000x1000"
                 alt="Picture of the author"
@@ -173,7 +173,7 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
+            <div className="flex">
               <Image
                 src="https://placehold.co/1000x1000"
                 alt="Picture of the author"
@@ -184,7 +184,7 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex row-span-1 lg:row-span-3">
+            <div className="flex">
               <Image
                 src="https://placehold.co/1000x1000"
                 alt="Picture of the author"
@@ -195,11 +195,23 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
+            <div className="flex">
               <Image
                 src="https://placehold.co/1000x1000"
                 alt="Picture of the author"
-                layout="fill"
+                width={500}
+                height={500}
+                objectFit="cover"
+                quality={100}
+                loading="lazy"
+              />
+            </div>
+            <div className="flex">
+              <Image
+                src="https://placehold.co/1000x1000"
+                alt="Picture of the author"
+                width={500}
+                height={500}
                 objectFit="cover"
                 quality={100}
                 loading="lazy"
